@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 581647007}
   - component: {fileID: 581647006}
   - component: {fileID: 581647005}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleWall
   m_TagString: ObstacleWall
   m_Icon: {fileID: 0}
@@ -754,6 +754,7 @@ GameObject:
   - component: {fileID: 1856252102}
   - component: {fileID: 1856252101}
   - component: {fileID: 1856252100}
+  - component: {fileID: 1856252104}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -874,6 +875,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856252098}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1856252104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856252098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6815ff4dd3c2fc46a2b79f3fcd2cf3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 65
 --- !u!1 &1949448369
 GameObject:
   m_ObjectHideFlags: 0
