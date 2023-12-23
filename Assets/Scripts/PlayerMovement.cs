@@ -28,16 +28,16 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))    
-        {
-            player.AddForce(0f, 0f, force * Time.deltaTime, ForceMode.VelocityChange);
+        //if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))    
+        //{
+            //player.AddForce(0f, 0f, force * Time.deltaTime, ForceMode.VelocityChange);
 
-        }
+        //}
 
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))    
-        {
-            player.AddForce(0f, 0f, -force * Time.deltaTime, ForceMode.VelocityChange);
+        //if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))    
+        //{
+            //player.AddForce(0f, 0f, -force * Time.deltaTime, ForceMode.VelocityChange);
 
-        }
+        //}
     }
 }
