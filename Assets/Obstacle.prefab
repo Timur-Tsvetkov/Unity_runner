@@ -146,5 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 080d32ad452f4d74ea0a05964d90bb51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
+  force: 150
   collisionVelocity: {x: 25, y: 5, z: 10}
