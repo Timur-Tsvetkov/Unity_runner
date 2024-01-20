@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject obstaclePrefab;
     public Transform obstacles;
     public int obstacleStartX = 100;
+    public static int difficulty = 1;
 
     private void Spawn()
     {
